@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Said</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <h1 class="logo">Mini <span>Porto</span></h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#Academical-Background" class="nav-link">Academical Background</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="navbar-right">
+      <button id="theme-toggle">🌙</button>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p>Hai, saya</p>
+      <h2>Said Idrus Abdullah</h2>
+      <h3><span id="typing-text"></span><span class="cursor">|</span></h3>
+      <p class="hero-desc">Mahasiswa UNEJ 25 yang sedang menempuh pendidikan di bidang informatika.</p>
+      <a href="#Academical-Background" class="btn">Akademik</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section reveal">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+      Mahasiswa yang tertarik pada pengembangan web. Website portofolio ini
+      dibuat sebagai tugas kuliah untuk melatih kemampuan HTML, CSS, dan manipulasi DOM
+      menggunakan JavaScript.
+    </p>
+  </section>
+
+  <!-- ACADEMICAL BACKGROUND -->
+  <section id="Academical-Background" class="section reveal">
+    <h2 class="section-title">Academic Background</h2>
+    
+    <div class="timeline">
+      <!-- Perkuliahan -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2025 - Sekarang</span>
+          <h3>S1 Ilmu Komputer / Informatika</h3>
+          <h4>Universitas Jember / Perguruan Tinggi</h4>
+          <p>Fokus pada Pengembangan Web, Basis Data, dan UI/UX Design.</p>
+        </div>
+      </div>
+
+      <!-- SMA / SMK -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2022 - 2025</span>
+          <h3>MA Darullughah Wadda'wah, Pasuruan</h3>
+          <h4>Jurusan IPA / Rekayasa Perangkat Lunak</h4>
+          <p>Aktif dalam organisasi siswa dan ekstrakurikuler komputer.</p>
+        </div>
+      </div>
+
+      <!-- SMP -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2018 - 2021</span>
+          <h3>SMP "plus" Darussholah Jember</h3>
+          <p>Menyelesaikan pendidikan tingkat pertama.</p>
+        </div>
+      </div>
+
+      <!-- SD -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2011 - 2017</span>
+          <h3>SDN Kepatihan 06</h3>
+          <p>Menyelesaikan pendidikan dasar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section reveal">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="Dalwa">Dalwa</button>
+      <button class="filter-btn" data-filter="Organisasi Masyarakat">Organisasi Masyarakat</button>
+      <button class="filter-btn" data-filter="UKM/ORMAWA">UKM/ORMAWA</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card" data-category="Dalwa">
+        <h3>Qism To'am</h3>
+        <p>Qism yang bekerja selama acara pondok untuk mendistribusikan jamuan agar dapat dinikmati oleh para tamu undangan
+          yang hadir</p>
+      </div>
+
+      <div class="project-card" data-category="Dalwa">
+        <h3>Qism Alat</h3>
+        <p>Bagian perlengkapan yang bertanggung jawab atas barang-barang yang digunakan untuk acara pondok.</p>
+      </div>
+
+      <div class="project-card" data-category="Organisasi Masyarakat">
+        <h3>Remaja Masjid Al-Ikhlas</h3>
+        <p>Mengembangkan keilmuan para pemuda dalam bidang agama dan sosial, dan menjadi orang yang bermanfaat dan taat beragama.</p>
+      </div>
+
+      <div class="project-card" data-category="Dalwa">
+        <h3>Remaja Masjid Baitul Ghaffar</h3>
+        <p>Mengembangkan keilmuan para pemuda dalam bidang agama dan sosial, dan menjadi orang yang bermanfaat dan taat beragama.</p>
+      </div>
+
+
+       <div class="project-card" data-category="UKM/ORMAWA">
+        <h3>UKM-O MACO</h3>
+        <p>Ukm yang berjalan untuk menaungi para atlet FASILKOM agar dapat mengasah kemampuan mereka dalam olahraga.</p>
+      </div>
+
+       <div class="project-card" data-category="Organisasi Masyarakat">
+        <h3>Karang Taruna</h3>
+        <p>Mengembangkan bakat dan keterampilan para pemuda, juga memperkuat semangat kebersamaan dan gotong-royong dalam masyarakat.</p>
+      </div>
+
+       <div class="project-card" data-category="UKM/ORMAWA">
+        <h3>SISFO CUP</h3>
+        <p>penyelenggaraan turnamen Esports dan futsal antar-sekolah, untuk memperkuat semangat persaingan dan kolaborasi antar pelajar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section reveal">
+    <h2 class="section-title">Contact Me</h2>
+    <p class="contact-desc">Silakan hubungi melalui email atau WhatsApp di bawah ini:</p>
+
+    <div class="contact-cards">
+      <!-- Card WhatsApp -->
+      <a href="https://wa.me/6281234567890" target="_blank" class="contact-card">
+        <div class="contact-icon">💬</div>
+        <div class="contact-info">
+          <h3>WhatsApp</h3>
+          <p>+62 822 4560 4152</p>
+        </div>
+      </a>
+
+      <!-- Card Email -->
+      <div class="contact-card" id="email-card">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-info">
+          <h3>Email</h3>
+          <p id="email-text">saididrusonlywork@gmail.com</p>
+        </div>
+        <button id="copy-btn" class="copy-btn">Salin</button>
+      </div>
+    </div>
+    
+    <!-- Notifikasi Toast saat Copy Email -->
+    <div id="toast" class="toast">Email berhasil disalin!</div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> Said Idrus Abdullah. Made by me.</p>
+  </footer>
+
+  <button id="back-to-top" title="Kembali ke atas">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
