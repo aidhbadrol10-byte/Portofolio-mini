@@ -18,3 +18,12 @@ Proyek portofolio pribadi responsif yang dibuat menggunakan HTML, CSS murni, dan
 - HTML5
 - CSS3 (Plain CSS / Flexbox / CSS Grid)
 - JavaScript (Vanilla DOM Manipulation)
+
+
+# Mini Portofolio - Said Idrus Abdullah
+
+untuk live demonya bisa langsung disini (https://aidhbadrol10-byte.github.io/Portofolio-mini/)
+
+---
+
+Proyek portofolio pribadi responsif yang dibuat menggunakan HTML, CSS murni, dan JavaScript DOM manipulation.
